@@ -2,4 +2,4 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/users/{id}/plans', 'PlanController@index')->name('plans.index');
+Route::get('/{user_name}/plans', 'PlanController@index')->name('plans.index');
