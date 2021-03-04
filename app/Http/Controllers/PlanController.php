@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class PlanController extends Controller
 {
-    return "Hello world";
+    public function index()
+    {
+        return "Hello world";
+    }
 }
