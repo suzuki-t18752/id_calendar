@@ -8,7 +8,6 @@ class PlanController extends Controller
 {
     public function index()
     {
-        return " Hello world ";
+        return "Hello world";
     }
 }
-
